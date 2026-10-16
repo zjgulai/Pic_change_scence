@@ -1,0 +1,30 @@
+# 操作系统与编辑器临时文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.uv/
+
+# 密钥、凭证与环境变量（严禁入库）
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*token*
+*credential*
+
+# 临时区与草稿区（非正式资产不入库）
+tmp/
+drafts/
+
+# Claude 本地会话与权限配置（仅保留正式工作流定义）
+.claude/*
+!.claude/workflows/
+!.claude/workflows/*.js
